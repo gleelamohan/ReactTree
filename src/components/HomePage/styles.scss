@@ -1,0 +1,24 @@
+text{
+  stroke-width: 0
+}
+
+.nodeNameBase {
+  stroke-width: 0
+}
+
+.flex-container{
+  width: 100%;
+  min-height: 300px;
+  display: -webkit-flex; /* Safari */
+  display: flex; /* Standard syntax */
+}
+.flex-container .column{
+  padding: 10px;
+  -webkit-flex: 1; /* Safari */
+  -ms-flex: 1; /* IE 10 */
+  flex: 1; /* Standard syntax */
+}
+
+.paddingTop {
+  padding-top: 5px;
+}
